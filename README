@@ -1,0 +1,28 @@
+Basic-Command-Docker
+
+Don't forget in your server is mode "sudo".
+
+# docker pull <name_image>
+For download/take image from docker hub.
+
+# docker run
+For create a new container from image. After create run container use parameter "it" and "bash". example:
+# docker run --name mycontainer -it ubuntu bash
+
+# docker start <name_container>
+For star the container.
+
+# docker ps -a
+Display all container list.
+
+# docker stop Mycontainer
+Stop docker container.
+
+# docker rm <name_image/name_container>
+Erase the container/image.
+
+# docker kill Mycontainer
+Kill the container.
+
+# docker run
+
