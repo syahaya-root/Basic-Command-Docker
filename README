@@ -6,7 +6,8 @@ Don't forget in your server is mode "sudo".
 For download/take image from docker hub.
 
 # docker run
-For create a new container from image. After create run container use parameter "it" and "bash". example:
+For create a new container from image. After create run container use parameter "it" and "bash".
+Example:
 # docker run --name mycontainer -it ubuntu bash
 
 # docker start <name_container>
